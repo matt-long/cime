@@ -453,7 +453,7 @@ module cime_comp_mod
   character(CL) :: hist_a2x24hr_flds = &
        'Faxa_bcphiwet:Faxa_bcphodry:Faxa_bcphidry:Faxa_ocphiwet:Faxa_ocphidry:&
        &Faxa_ocphodry:Faxa_dstwet1:Faxa_dstdry1:Faxa_dstwet2:Faxa_dstdry2:Faxa_dstwet3:&
-       &Faxa_dstdry3:Faxa_dstwet4:Faxa_dstdry4:Sa_co2prog:Sa_co2diag'
+       &Faxa_dstdry3:Faxa_dstwet4:Faxa_dstdry4:Faxa_xtFe:Sa_co2prog:Sa_co2diag'
 
   character(CL) :: hist_a2x1hri_flds = &
        'Faxa_swndr:Faxa_swvdr:Faxa_swndf:Faxa_swvdf'
@@ -3088,7 +3088,7 @@ contains
              if (drv_threading) call seq_comm_setnthreads(nthreads_CPLID)
              if (do_hist_r2x) then
                 call t_drvstartf ('driver_rofpost_histaux', barrier=mpicom_CPLID)
-                ! Write coupler's hr2x file at 24 hour marks, 
+                ! Write coupler's hr2x file at 24 hour marks,
                 ! and at the end of the run interval, even if that's not at a 24 hour mark.
                 write_hist_alarm = t24hr_alarm .or. stop_alarm
                 do eri = 1,num_inst_rof

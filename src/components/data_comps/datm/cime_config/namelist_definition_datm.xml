@@ -233,8 +233,8 @@
       <value stream="BC.CRUNCEP.CMAP.Precip">$DIN_LOC_ROOT/atm/datm7/bias_correction/precip/cmap/cruncep</value>
       <value stream="Anomaly">$DIN_LOC_ROOT/atm/datm7/anomaly_forcing</value>
       <value stream="presaero.cplhist">null</value>
-      <value stream="presaero.clim_1850">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero </value>
-      <value stream="presaero.clim_2000">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero </value>
+      <value stream="presaero.clim_1850">/glade/work/mclong/cesm_cases/xtfe/data/forcing </value>
+      <value stream="presaero.clim_2000">/glade/work/mclong/cesm_cases/xtfe/data/forcing </value>
       <value stream="presaero.clim_2010">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero </value>
       <value stream="presaero.trans_1850-2000">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero</value>
       <value stream="presaero.rcp">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero</value>
@@ -310,8 +310,8 @@
       <value stream="presaero.rcp4.5" atm_grid="CLM_USRDAT">aerosoldep_rcp4.5_monthly_1849-2104_${CLM_USRDAT_NAME}.nc</value>
       <value stream="presaero.rcp6.0" atm_grid="CLM_USRDAT">aerosoldep_rcp6_monthly_1849-2104_${CLM_USRDAT_NAME}.nc</value>
 
-      <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
-      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
       <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.rcp2.6">aerosoldep_rcp2.6_monthly_1849-2104_1.9x2.5_c100402.nc</value>
@@ -1379,7 +1379,7 @@
         JRA.v1.3.q_10.TL319.2014.171019.nc
         JRA.v1.3.q_10.TL319.2015.171019.nc
         JRA.v1.3.q_10.TL319.2016.171019.nc
-      </value> 
+      </value>
       <value  stream="CORE_IAF_JRA.NCEP.SLP_">
         JRA.v1.3.slp.TL319.1958.171019.nc
         JRA.v1.3.slp.TL319.1959.171019.nc
@@ -1440,7 +1440,7 @@
         JRA.v1.3.slp.TL319.2014.171019.nc
         JRA.v1.3.slp.TL319.2015.171019.nc
         JRA.v1.3.slp.TL319.2016.171019.nc
-      </value> 
+      </value>
       <value  stream="CORE_IAF_JRA.NCEP.T_10">
         JRA.v1.3.t_10.TL319.1958.171019.nc
         JRA.v1.3.t_10.TL319.1959.171019.nc
@@ -1501,7 +1501,7 @@
         JRA.v1.3.t_10.TL319.2014.171019.nc
         JRA.v1.3.t_10.TL319.2015.171019.nc
         JRA.v1.3.t_10.TL319.2016.171019.nc
-      </value> 
+      </value>
       <value  stream="CORE_IAF_JRA.NCEP.U_10">
         JRA.v1.3.u_10.TL319.1958.171019.nc
         JRA.v1.3.u_10.TL319.1959.171019.nc
@@ -1562,7 +1562,7 @@
         JRA.v1.3.u_10.TL319.2014.171019.nc
         JRA.v1.3.u_10.TL319.2015.171019.nc
         JRA.v1.3.u_10.TL319.2016.171019.nc
-      </value> 
+      </value>
       <value  stream="CORE_IAF_JRA.NCEP.V_10">
         JRA.v1.3.v_10.TL319.1958.171019.nc
         JRA.v1.3.v_10.TL319.1959.171019.nc
@@ -1623,7 +1623,7 @@
         JRA.v1.3.v_10.TL319.2014.171019.nc
         JRA.v1.3.v_10.TL319.2015.171019.nc
         JRA.v1.3.v_10.TL319.2016.171019.nc
-      </value> 
+      </value>
       <value stream="CORE_IAF_JRA.CORE2.ArcFactor">CORE2.t_10.ArcFactor.T62.1997-2004.nc</value>
       <value stream="co2tseries.20tr.latbnd">fco2_datm_lat-bands_simyr_1750-2015_CMIP6_c180929.nc</value>
       <value stream="co2tseries.20tr">fco2_datm_global_simyr_1750-2014_CMIP6_c180929.nc</value>
@@ -1643,8 +1643,8 @@
       <value stream="Anomaly.Forcing.Shortwave">af.rsds.ccsm4.rcp45.2006-2300.nc</value>
       <value stream="Anomaly.Forcing.Longwave">af.rlds.ccsm4.rcp45.2006-2300.nc</value>
 
-      <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
-      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
+      <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
       <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
       <value stream="presaero.rcp2.6">aerosoldep_rcp2.6_monthly_1849-2104_1.9x2.5_c100402.nc</value>
@@ -1883,7 +1883,7 @@
         prec  prec
       </value>
       <value  stream="CORE_IAF_JRA.GISS.LWDN">
-        lwdn  lwdn 
+        lwdn  lwdn
       </value>
       <value  stream="CORE_IAF_JRA.GISS.SWDN">
         swdn  swdn
@@ -1985,6 +1985,7 @@
         DSTX03DD   dstdry3
         DSTX04WD   dstwet4
         DSTX04DD   dstdry4
+        EXTTERFE   xtFe
       </value>
       <value stream="topo.cplhist">
         a2x3h_Sa_topo  topo

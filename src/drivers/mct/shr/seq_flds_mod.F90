@@ -941,6 +941,17 @@ contains
     attname  = 'Faxa_dstdry4'
     call metadata_set(attname, longname, stdname, units)
 
+    ! Extraterrestrial iron
+    call seq_flds_add(a2x_fluxes,"Faxa_xtFe"  )
+    call seq_flds_add(x2i_fluxes,"Faxa_xtFe"  )
+    call seq_flds_add(x2l_fluxes,"Faxa_xtFe"  )
+    call seq_flds_add(x2o_fluxes,"Faxa_xtFe"  )
+    longname = 'Extraterrestrial Fe'
+    stdname  = 'dry_deposition_flux_of_Fe'
+    units    = 'kg m-2 s-1'
+    attname  = 'Faxa_xtFe'
+    call metadata_set(attname, longname, stdname, units)
+
     !----------------------------------------------------------
     ! states/fluxes to atm (and ocean)
     !----------------------------------------------------------
@@ -1447,6 +1458,15 @@ contains
     stdname  = 'dust_flux'
     units    = 'kg m-2 s-1'
     attname  = 'Fioi_flxdst'
+    call metadata_set(attname, longname, stdname, units)
+
+    ! Extraterrestrial iron flux
+    call seq_flds_add(i2x_fluxes,"Fioi_xtFe_ice_rxn")
+    call seq_flds_add(x2o_fluxes,"Fioi_xtFe_ice_rxn")
+    longname = 'Extraterrestrial Fe'
+    stdname  = 'dry_deposition_flux_of_Fe'
+    units    = 'kg m-2 s-1'
+    attname  = 'Fioi_xtFe_ice_rxn'
     call metadata_set(attname, longname, stdname, units)
 
     ! Sea surface temperature

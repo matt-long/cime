@@ -100,7 +100,7 @@ module datm_comp_mod
   real(R8), pointer    :: winddFactor(:)
   real(R8), pointer    :: qsatFactor(:)
 
-  integer(IN),parameter :: ktrans  = 77
+  integer(IN),parameter :: ktrans  = 78
 
   character(16),parameter  :: avofld(1:ktrans) = &
        (/"Sa_z            ","Sa_topo         ", &
@@ -112,7 +112,7 @@ module datm_comp_mod
        "Sa_co2diag      ","Faxa_bcphidry   ","Faxa_bcphodry   ","Faxa_bcphiwet   ", &
        "Faxa_ocphidry   ","Faxa_ocphodry   ","Faxa_ocphiwet   ","Faxa_dstwet1    ", &
        "Faxa_dstwet2    ","Faxa_dstwet3    ","Faxa_dstwet4    ","Faxa_dstdry1    ", &
-       "Faxa_dstdry2    ","Faxa_dstdry3    ","Faxa_dstdry4    ",                    &
+       "Faxa_dstdry2    ","Faxa_dstdry3    ","Faxa_dstdry4    ","Faxa_xtFe       ", &
        "Sx_tref         ","Sx_qref         ","Sx_avsdr        ","Sx_anidr        ", &
        "Sx_avsdf        ","Sx_anidf        ","Sx_t            ","So_t            ", &
        "Sl_snowh        ","Sf_lfrac        ","Sf_ifrac        ","Sf_ofrac        ", &
@@ -139,7 +139,7 @@ module datm_comp_mod
        "co2diag         ","bcphidry        ","bcphodry        ","bcphiwet        ", &
        "ocphidry        ","ocphodry        ","ocphiwet        ","dstwet1         ", &
        "dstwet2         ","dstwet3         ","dstwet4         ","dstdry1         ", &
-       "dstdry2         ","dstdry3         ","dstdry4         ",                    &
+       "dstdry2         ","dstdry3         ","dstdry4         ","xtFe            ", &
        "tref            ","qref            ","avsdr           ","anidr           ", &
        "avsdf           ","anidf           ","ts              ","to              ", &
        "snowhl          ","lfrac           ","ifrac           ","ofrac           ", &
