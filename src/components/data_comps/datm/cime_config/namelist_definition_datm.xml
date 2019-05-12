@@ -233,10 +233,10 @@
       <value stream="BC.CRUNCEP.CMAP.Precip">$DIN_LOC_ROOT/atm/datm7/bias_correction/precip/cmap/cruncep</value>
       <value stream="Anomaly">$DIN_LOC_ROOT/atm/datm7/anomaly_forcing</value>
       <value stream="presaero.cplhist">null</value>
-      <value stream="presaero.clim_1850">/glade/work/mclong/cesm_cases/xtfe/data/forcing </value>
-      <value stream="presaero.clim_2000">/glade/work/mclong/cesm_cases/xtfe/data/forcing </value>
-      <value stream="presaero.clim_2010">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero </value>
-      <value stream="presaero.trans_1850-2000">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero</value>
+      <value stream="presaero.clim_1850">/glade/work/mclong/cesm_cases/xtfe/data/forcing</value>
+      <value stream="presaero.clim_2000">/glade/work/mclong/cesm_cases/xtfe/data/forcing</value>
+      <value stream="presaero.clim_2010">/glade/work/mclong/cesm_cases/xtfe/data/forcing</value>
+      <value stream="presaero.trans_1850-2000">/glade/work/mclong/cesm_cases/xtfe/data/forcing</value>
       <value stream="presaero.rcp">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero</value>
       <value stream="topo.observed">$DIN_LOC_ROOT/atm/datm7/topo_forcing</value>
       <value stream="topo.cplhist">null</value>
@@ -312,8 +312,8 @@
 
       <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
       <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
-      <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
-      <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
+      <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
       <value stream="presaero.rcp2.6">aerosoldep_rcp2.6_monthly_1849-2104_1.9x2.5_c100402.nc</value>
       <value stream="presaero.rcp4.5">aerosoldep_rcp4.5_monthly_1849-2104_1.9x2.5_c100402.nc</value>
       <value stream="presaero.rcp6.0">aerosoldep_rcp6.0_monthly_1849-2104_1.9x2.5_c100830.nc</value>
@@ -425,7 +425,7 @@
       <value stream="BC.CRUNCEP.CMAP.Precip">$DIN_LOC_ROOT/atm/datm7/bias_correction/precip/cmap/cruncep</value>
       <value stream="Anomaly">$DIN_LOC_ROOT/atm/datm7/anomaly_forcing</value>
       <value stream="presaero.cplhist">$DATM_CPLHIST_DIR</value>
-      <value stream="presaero">$DIN_LOC_ROOT/atm/cam/chem/trop_mozart_aero/aero</value>
+      <value stream="presaero">/glade/work/mclong/cesm_cases/xtfe/data/forcing</value>
       <value stream="topo.observed">$DIN_LOC_ROOT/atm/datm7/topo_forcing</value>
       <value stream="topo.cplhist">$DATM_CPLHIST_DIR</value>
     </values>
@@ -1645,8 +1645,8 @@
 
       <value stream="presaero.clim_1850">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
       <value stream="presaero.clim_2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
-      <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
-      <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926.nc</value>
+      <value stream="presaero.clim_2010">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
+      <value stream="presaero.trans_1850-2000">aerosoldep_WACCM.ensmean_monthly_hist_1849-2015_0.9x1.25_CMIP6_c180926-xtfe.nc</value>
       <value stream="presaero.rcp2.6">aerosoldep_rcp2.6_monthly_1849-2104_1.9x2.5_c100402.nc</value>
       <value stream="presaero.rcp2.6" atm_grid="CLM_USRDAT">aerosoldep_rcp2.6_monthly_1849-2104_${CLM_USRDAT_NAME}.nc</value>
       <value stream="presaero.rcp4.5">aerosoldep_rcp4.5_monthly_1849-2104_1.9x2.5_c100402.nc</value>
